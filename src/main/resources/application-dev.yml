@@ -1,0 +1,22 @@
+spring:
+    profiles: dev
+    
+    data: 
+        mongodb:
+            host: databases.int
+            port: 27017
+            database: my-message-db
+  
+    mail:
+        host: email-smtp.eu-west-1.amazonaws.com
+        port: 587
+        username: YOUR_MAIL_USERNAME
+        password: YOUR_MAIL_PASSWORD
+        
+server:
+    port: 9001
+    contextPath: /api
+    
+awsSns:
+    accessKey: YOUR_SNS_KEY
+    secretKey: YOUR_SNS_PASSWORD

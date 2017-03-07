@@ -1,0 +1,5 @@
+com/tpa/generic/rest/sample/Server.class
+com/tpa/generic/rest/sample/data/bean/Message.class
+com/tpa/generic/rest/sample/service/MessageService.class
+com/tpa/generic/rest/sample/controller/MessageController.class
+com/tpa/generic/rest/sample/data/repository/MessageRepository.class
